@@ -23,7 +23,16 @@ packingLists.forEach(function(item){
 })
 */
 
+/* 
 console.log("Kitchen stuff to pack:");
 var list = packingLists.map(function(item){
   console.log(item)
 })
+*/
+
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingLists.length) {
+  console.log(packingLists[i]);
+  i++;
+}
